@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.
 URL:		http://search.cpan.org/dist/Crypt-PKCS10/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl(Module::Build::Tiny)
 %if %{with tests}
 BuildRequires:	openssl
 %endif
